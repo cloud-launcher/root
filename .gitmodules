@@ -3,22 +3,22 @@
 	url = git@github.com:cloud-launcher/benchmark-viewer
 [submodule "browser-request"]
 	path = browser-request
-	url = git@github.com:cloud-launcher/browser-request/
+	url = git@github.com:cloud-launcher/browser-request
 [submodule "cloud-launcher.github.io"]
 	path = cloud-launcher.github.io
-	url = git@github.com:cloud-launcher/cloud-launcher.github.io/
+	url = git@github.com:cloud-launcher/cloud-launcher.github.io
 [submodule "discovery-etcd-nginx-proxy"]
 	path = discovery-etcd-nginx-proxy
-	url = git@github.com:cloud-launcher/discovery-etcd-nginx-proxy/
+	url = git@github.com:cloud-launcher/discovery-etcd-nginx-proxy
 [submodule "do-wrapper"]
 	path = do-wrapper
 	url = git@github.com:cloud-launcher/do-wrapper
 [submodule "do-wrapper-browser"]
 	path = do-wrapper-browser
-	url = git@github.com:cloud-launcher/do-wrapper-browser/
+	url = git@github.com:cloud-launcher/do-wrapper-browser
 [submodule "docker-hub-nginx-cache-proxy"]
 	path = docker-hub-nginx-cache-proxy
-	url = git@github.com:cloud-launcher/docker-hub-nginx-cache-proxy/
+	url = git@github.com:cloud-launcher/docker-hub-nginx-cache-proxy
 [submodule "launch-cloud"]
 	path = launch-cloud
 	url = git@github.com:cloud-launcher/launch-cloud
@@ -27,19 +27,19 @@
 	url = git@github.com:cloud-launcher/launch-cloud-browser
 [submodule "launch-cloud-browser-simulator"]
 	path = launch-cloud-browser-simulator
-	url = git@github.com:cloud-launcher/launch-cloud-browser-simulator/
+	url = git@github.com:cloud-launcher/launch-cloud-browser-simulator
 [submodule "launch-cloud-core"]
 	path = launch-cloud-core
-	url = git@github.com:cloud-launcher/launch-cloud-core/
+	url = git@github.com:cloud-launcher/launch-cloud-core
 [submodule "launch-cloud-simulator"]
 	path = launch-cloud-simulator
-	url = git@github.com:cloud-launcher/launch-cloud-simulator/
+	url = git@github.com:cloud-launcher/launch-cloud-simulator
 [submodule "www"]
 	path = www
 	url = git@github.com:cloud-launcher/www
 [submodule "provider-digitalocean"]
 	path = provider/provider-digitalocean
-	url = git@github.com:cloud-launcher/provider-digitalocean/
+	url = git@github.com:cloud-launcher/provider-digitalocean
 [submodule "provider-template"]
 	path = provider/provider-template
-	url = git@github.com:cloud-launcher/provider-template/
+	url = git@github.com:cloud-launcher/provider-template
