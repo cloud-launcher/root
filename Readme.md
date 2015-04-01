@@ -1,1 +1,1 @@
-`git clone --recursive git@github.com:cloud-launcher/root.git`
+`git clone --recursive git@github.com:cloud-launcher/root.git cloud-launcher`
