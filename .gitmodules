@@ -1,6 +1,6 @@
 [submodule "benchmark-viewer"]
 	path = benchmark-viewer
-	url = ./benchmark-viewer
+	url = git@github.com:cloud-launcher/benchmark-viewer
 [submodule "browser-request"]
 	path = browser-request
 	url = ./browser-request/
