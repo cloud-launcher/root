@@ -1,0 +1,45 @@
+[submodule "benchmark-viewer"]
+	path = benchmark-viewer
+	url = ./benchmark-viewer
+[submodule "browser-request"]
+	path = browser-request
+	url = ./browser-request/
+[submodule "cloud-launcher.github.io"]
+	path = cloud-launcher.github.io
+	url = ./cloud-launcher.github.io/
+[submodule "discovery-etcd-nginx-proxy"]
+	path = discovery-etcd-nginx-proxy
+	url = ./discovery-etcd-nginx-proxy/
+[submodule "do-wrapper"]
+	path = do-wrapper
+	url = ./do-wrapper
+[submodule "do-wrapper-browser"]
+	path = do-wrapper-browser
+	url = ./do-wrapper-browser/
+[submodule "docker-hub-nginx-cache-proxy"]
+	path = docker-hub-nginx-cache-proxy
+	url = ./docker-hub-nginx-cache-proxy/
+[submodule "launch-cloud"]
+	path = launch-cloud
+	url = ./launch-cloud
+[submodule "launch-cloud-browser"]
+	path = launch-cloud-browser
+	url = ./launch-cloud-browser
+[submodule "launch-cloud-browser-simulator"]
+	path = launch-cloud-browser-simulator
+	url = ./launch-cloud-browser-simulator/
+[submodule "launch-cloud-core"]
+	path = launch-cloud-core
+	url = ./launch-cloud-core/
+[submodule "launch-cloud-simulator"]
+	path = launch-cloud-simulator
+	url = ./launch-cloud-simulator/
+[submodule "www"]
+	path = www
+	url = ./www
+[submodule "provider-digitalocean"]
+	path = provider-digitalocean
+	url = ./provider/provider-digitalocean/
+[submodule "provider-template"]
+	path = provider-template
+	url = ./provider/provider-template/
