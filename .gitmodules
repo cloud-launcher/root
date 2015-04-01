@@ -39,7 +39,7 @@
 	url = git@github.com:cloud-launcher/www
 [submodule "provider-digitalocean"]
 	path = provider/provider-digitalocean
-	url = ./provider-digitalocean/
+	url = git@github.com:cloud-launcher/provider-digitalocean/
 [submodule "provider-template"]
 	path = provider/provider-template
-	url = ./provider-template/
+	url = git@github.com:cloud-launcher/provider-template/
