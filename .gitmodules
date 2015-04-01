@@ -38,8 +38,8 @@
 	path = www
 	url = git@github.com:cloud-launcher/www
 [submodule "provider-digitalocean"]
-	path = provider-digitalocean
+	path = provider/provider-digitalocean
 	url = ./provider-digitalocean/
 [submodule "provider-template"]
-	path = provider-template
+	path = provider/provider-template
 	url = ./provider-template/
