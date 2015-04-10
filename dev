@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Make sure you have tmux installed!"
+
+tmux new-session -d 'cd provider/provider-digitalocean; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux split-window -h 'cd launch-cloud-core; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux select-pane -t 0
+tmux split-window -v 'cd launch-cloud; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux select-pane -t 1
+tmux split-window -v 'cd launch-cloud-browser; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux select-pane -t 3
+tmux split-window -v 'cd launch-cloud-simulator; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux select-pane -t 4
+tmux split-window -v 'cd launch-cloud-browser-simulator; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux select-pane -t 5
+tmux split-window -v 'cd www/frontend; pwd; until gulpur dev; do echo "gulpur dev crashed with exit code $?.  Respawning.." >&2; sleep 1; done;'
+tmux attach
