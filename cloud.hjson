@@ -1,0 +1,39 @@
+{
+  locations: {
+    digitalocean: [ "sfo1" ]
+  },
+  configuration: {
+    proxies: 1
+  },
+  roles: {
+    $all: [ "cadvisor" ],
+    proxies: [ "discovery-etcd-nginx-proxy", "docker-hub-nginx-cache-proxy" ]
+  },
+  containers: {
+    cadvisor: {
+      container: "google/cadvisor",
+      ports: {
+        8080: 8080
+      },
+      volumes: {
+        /: "/rootfs:ro",
+        /var/run: "/var/run:rw",
+        /sys: "/sys:ro",
+        /var/lib/docker: "/var/lib/docker:ro"
+      }
+    },
+    discovery-etcd-nginx-proxy: {
+      container: "cloudlauncher/discovery-etcd-nginx-proxy",
+      ports: {
+        8081: 80
+      }
+    },
+    docker-hub-nginx-cache-proxy: {
+      container: "cloudlauncher/docker-hub-nginx-cache-proxy",
+      ports: {
+        8082: 80
+      }
+    }
+  },
+  authorizations: [ "40:85:f0:9b:28:ad:5d:25:b5:51:2e:ad:f3:b3:31:98" ]
+}
